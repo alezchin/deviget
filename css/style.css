@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{font-family: 'Roboto', sans-serif;}
+small, a{color:#4F4D4D;}
+p{padding: 0px; margin: 4px 0px}
+ol li {
+  padding: 15px 30px;
+  background-color: #E6E3E3;
+	border-radius: 50px;
+	margin-bottom: 20px;
+	list-style-type: none;
+	
+}
+.Lcontent{width: 40%; float: left; overflow: scroll; height: 1000px;}
+.Rcontent{width: 40%; height: 500px; float: right; border: 1px solid #666666;border-radius: 50px; margin-right: 10%;}
+.Rcontent{color: #4F4D4D; text-align: center!important;}
+@media only screen and (max-width: 700px) {
+	.Rcontent{display: none!important;}
+	.Lcontent{width: 100%!important}
+	ol{padding-left: 10px!important}
+}
